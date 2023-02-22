@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CropItz</string>
+    <string name="choose_from_device">Choose from device</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="image_shown">image_shown</string>
+
+</resources>
