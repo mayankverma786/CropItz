@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap originalBitmap = Utils.getMutableBitmap(BitmapFactory.decodeFile(resultUri.getPath()));
 
                 // Add the watermark
-                Bitmap watermarkedBitmap = waterMarkBitmap(originalBitmap, "by Reena");
+                Bitmap watermarkedBitmap = waterMarkBitmap(originalBitmap, "by <Mayank>");
 
                 ImageView myImageView = findViewById(R.id.imageView);
                 myImageView.setImageBitmap(watermarkedBitmap);
